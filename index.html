@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-container" id="output-container">
+                <input placeholder="Ingrese el texto aquí" class="input" id="myInput">
+                <div class="boton-container">
+                    <button class="boton" id="button" onclick="encriptar()">Encriptar</button>
+                    <button class="boton" onclick="desencriptar()">Desencriptar</button>
+                    <button class="boton" id="copiar" onclick="copiar()">Copiar</button>
+                </div>
+                
+            </div>
+            <div class="output-container">
+                <div class="desencriptador" id="desencriptador">
+                    <img class="img" id="img" src="./Muñeco.png">
+                    <p class="parrafo" id="parrafo">
+                        <b>Ningún mensaje fue encontrado</b>
+                    </p>
+                    <p id="p">
+                        ingrese el texto que desees encriptar o desencriptar
+                    </p>
+                </div>
+            </div>
+            </div>
+            <script src="./codificador.js"></script>
+    </body>
+</html>
